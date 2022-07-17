@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!--
+    Qilin Chen's personal website!
+    Name:   Qilin Chen
+    Email:  qilin_chan@icloud.com
+    Date:   July 15, 2022
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qilin Chen</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <table id="main-table">
+      <tr>
+        <td>
+          <table class="sub-table">
+            <tr>
+              <td class="td-with-padding">
+                <p class="p-center" id="name">
+                  <name>Qilin Chen</name>
+                    <p class="p-center" id="email">
+                        qilin_chan@icloud.com
+                    </p>
+
+                    <p class="p-center smallerFont">
+                        <a href="mailto:qilin_chan@icloud.com">Email</a>
+                        &nbsp;|&nbsp;
+                        <a href="https://github.com/KylinC">GitHub</a>
+                    </p>
+                </p>
+
+                <br>
+    
+                <p>
+                    I'm currently a postgraduate student in Computer Science Department in <a
+                        href="https://www.tsinghua.edu.cn">Tsinghua University</a>.
+                </p>
+                <p>
+                    My Research Interests lie in the broad area of  <span class="emphasis">Mobile Computing</span> and <span class="emphasis">Wireless Sensors</span>.
+                    Currently, I am working on research projects on <span class="emphasis">Autonomous Driving</span>.
+                </p>
+
+  
+              </td>
+              <td class="td-with-padding">
+                <img src="images/qilin.jpg" id="avator-image" />
+              </td>
+            </tr>
+          </table>
+          <table class="sub-table">
+            <tr>
+              <td class="td-with-padding">
+                <heading>Education</heading>
+                <ul>
+                  <li>
+                    <span class="emphasis">Tsinghua University</span>,
+                    Beijing, China
+                    <span class="align-right">Sep 2022 - Jun 2025 </span>
+                    <p>
+                      Master Degree candidate in Computer Science and Technology
+                    </p>
+                  </li>
+                  <li>
+                    <span class="emphasis">Shanghai Jiao Tong University</span>,
+                    Shanghai, China
+                    <span class="align-right">Sep 2017 - Jun 2021 </span>
+                    <p>
+                      B.Eng. in Computer Science and Technology
+                    </p>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+                <td class="td-with-padding">
+                    <heading> Publications</heading>
+                    <p>Hao Kong, Xiangyu Xu, Jiadi Yu and <u><b>Qilin Chen</b></u>, Chenguang Ma, Yingying Chen, Yi-Chao Chen, Linghe Kong.
+                    "m^3Track: mmWave-based Multi-User 3D Posture Tracking". 
+                    ACM International Conference on Mobile Systems, Applications, and Services(<b>MobiSys</b>), Jun. 2022</p>
+
+                </td>
+            </tr>
+
+            <tr>
+              <td class="td-with-padding">
+                <heading>Professional Experiences</heading>
+
+                <p>
+                    <ol>
+                        <li>
+                          <a href="projects/antIntern.html">Algorithm design & development for Vital signs detection</a>
+                          <span class="aligh-right"> Dec 2020 - Mar 2021</span>
+                          <br>
+                          <span class="smallerFont">Research Internship, <span class="emphasis">Ant Group</span> </span>
+                          <br>
+                          <br>
+
+                          I developed a real-time non-contact detection system of breathing and heartbeat based on 5G-IOT devices (including algorithm design, software and hardware development).
+                          
+                          Also, I realized applications such as user authentication and motion recognition based on the mixed features of Doppler and millimeter-level displacement.
+                        </li>
+
+                        <br>
+                        <br>
+
+                        <li>
+                          <a href="projects/nrieeIntern.html"> Developer for data visualization system of air traffic control</a>
+                          <span class="aligh-right"> Jul 2019 - Oct 2019</span>
+                          <br>
+                          <span class="smallerFont">Software Development Internship, <span class="emphasis"> The 28th Research Institute of China Electronics (NRIEE) </span> </span>
+                          <br>
+                          <br>
+                        
+                          I developed data visualization toolkits based on Echarts and D3.js, which integrates multi-source data using Neo4j graph database and Jieba NLP packages. 
+
+                          I also added the function of flight delay prediction and forecast to the platform.
+                        </li>
+
+                    </ol>
+
+                </p>
+
+                
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-with-padding">
+                <heading>Selected Projects</heading>
+                <ol>
+                  <li>
+                    mPose3D [<a
+                      href="https://github.com/KylinC/mPose3D"
+                      >Code</a
+                    >]
+                    <p>
+                      mPose3D aims at human pose estimation and implements standard python API from Texas Instrument (TI) mmWave hardware <a
+                        href="https://www.ti.com.cn/tool/zh-cn/IWR1443BOOST"
+                        >IWR1443</a> and <a
+                        href="https://www.ti.com/tool/DCA1000EVM"
+                        >DCA1000EVM</a>.
+                    </p>
+                  </li>
+
+                  <li>
+                    mmVital-Signs [<a
+                      href="https://github.com/KylinC/mmVital-Signs"
+                      >Code</a
+                    >]
+                    <p>
+                     TBased on single Periodic linearly-increasing frequency chirps (known as Frequency-Modulated Continuous Wave (FMCW)), mmVital-Signs can actively measure human breathing and heartbeat frequency, the project can be implemented in a production environment now.
+                    </p>
+                  </li>
+
+                  <li>
+                     MarkDown Editor with Cloud Synchronization [<a
+                      href="https://github.com/KylinC/eMarkDown"
+                      >Code</a
+                    >]
+                    <p>
+                     The goal of this task is to develop a OSS(Object Storage Service)-based MarkDown editor application. This project is developed by React and Electron, and it can be installed on all platforms(Mac, Win, etc.). The software uses OSS (Aliyun and Qiniu) to synchronize MarkDown files between devices.
+                    </p>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="td-with-padding">
+                <heading>Awards & Scholarships</heading>
+                <ol>
+                  <li class="li-margin">
+                    Class-B Scholarship (Top 10%) Shanghai Jiao Tong University
+                    <span class="align-right">2018 & 2019</span>
+                  </li>
+                  <li class="li-margin">
+                    Outstanding Graduation Thesis (Top 5%) SJTU CSE Department
+                    <span class="align-right">2021</span>
+                  </li>
+                </ol>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
